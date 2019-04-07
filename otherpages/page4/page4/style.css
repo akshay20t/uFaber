@@ -1,0 +1,453 @@
+.go a{
+    font-weight: 800;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+/* 20px @ 200px increasing to 45px @ 1920px */
+@media (min-width: 200px) {
+    .top_sec h1 {
+        font-size: calc(1.25rem + ((1vw - 2px) * 1.4535));
+        /* Where: * 1.4535 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+}
+
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+    .top_sec h1 {
+        font-size: 45px;
+    }
+}
+
+/* 16px @ 200px increasing to 28px @ 1920px */
+@media (min-width: 80px) {
+    .top_sec_cont span {
+        font-size: calc(1rem + ((1vw - 2px) * 0.6977));
+        /* Where: * 0.6977 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+}
+
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+    .top_sec_cont span {
+        font-size: 28px;
+    }
+}
+
+/* 11px @ 200px increasing to 28px @ 1920px */
+/* FOR CARD */
+@media (min-width: 200px) {
+    .card1 p {
+        font-size: calc(0.6875rem + ((1vw - 2px) * 0.9884));
+        /* Where: * 0.9884 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+}
+
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+    .card1 p {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 80px) {
+    a {
+        font-size: calc(0.5rem + ((1vw - 0.8px) * 2.0109));
+    }
+}
+@media (min-width: 1920px) {
+    a {
+        font-size: 45px;
+    }
+}
+
+.top_sec_cont {
+    padding-bottom: 2.2rem !important;
+
+}
+
+.top_sec {
+    background: #e8f7fe !important;
+    border-bottom-left-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    /*padding-bottom: 4rem;*/
+}
+
+.top_sec h1 {
+    padding-bottom: 2.7rem !important;
+    font-weight: 800 !important;
+    /*font-weight: 800;*/
+}
+
+.top_sec button {
+    height: 3.5rem !important;
+    width: 20rem !important;
+    /*font-size: 1rem !important;*/
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+.top_sec img {
+    /*position: absolute;*/
+    /*height: 32rem;*/
+    width: 100% !important;
+    padding-left: 23% !important;
+    padding-right: 12% !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    /* max-width: 100% /transform: translateZ(-100px) scale(1);/ */
+}
+
+.top_sec span {
+    /*font-size: 1.5rem !important;*/
+    font-weight: 600 !important;
+}
+
+/* sdsdgsd */
+span {
+    content: "\27F6";
+}
+
+
+
+.justifier {
+    text-align: left;
+    line-height: 4rem;
+
+}
+
+.box-content {
+    text-align: center;
+    /* height:100vh; */
+    margin-bottom: 40rem;
+
+    margin: auto;
+}
+
+div p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.card1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center;
+    padding-bottom: 27rem;
+}
+
+.container-fluid img {
+    width: 30%;
+    margin: auto auto;
+    padding-bottom: 7rem;
+    padding-top: 6rem;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+.btn-outline-secondary:hover {
+    /*border-radius: 2rem;*/
+    /*padding-left: 7rem;*/
+    /*padding-right: 7rem;*/
+    background-color: #0899fa;
+}
+
+
+.blue {
+    background-color: #f5fcff;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+
+.blue-background {
+    height: 60vw;
+    width: 100%;
+    background-color: #e8f7fe;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: -20;
+    margin-bottom: 13rem;
+}
+
+.img1 {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 472px;
+    height: auto;
+
+}
+
+@media (max-width: 425px) {
+
+    .btn {
+        /*min-width: 5rem;*/
+        /*border-radius: 48px;*/
+        /*padding-left: 0.4rem;*/
+        /*padding-right: 0.4rem;*/
+        /*padding-top: 0.5rem;*/
+        /*padding-bottom: 0.5rem;*/
+    }
+
+    .btn-outline-secondary:hover {
+        border-radius: 48px;
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+        background-color: #0899fa;
+    }
+
+    div p {
+        padding-bottom: 0.5rem;
+    }
+
+    .card1 {
+        padding-bottom: 5rem;
+    }
+
+    .justifier {
+        line-height: 1rem;
+        padding-bottom: 1.4rem;
+    }
+
+    .container-fluid img {
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blue {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .container-fluid img {
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+
+    .card1 {
+        padding-bottom: 12rem;
+    }
+
+    .justifier {
+        line-height: 3rem;
+    }
+}
+
+.fluent {
+    padding-top: 4.6rem;
+}
+
+.card11 img {
+    padding-left: 28%;
+    padding-right: 28%;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.card11 p {
+    padding-left: 11%;
+    padding-right: 11%;
+    text-align: left;
+    line-height: 2.8rem;
+}
+
+@media (min-width: 200px) {
+    .card11 p {
+        font-size: calc(0.6875rem + ((1vw - 2px) * 0.9884));
+        /* Where: * 0.9884 = 100 * font_Size_Difference / viewport_Width_Difference */
+    }
+}
+
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+    .card11 p {
+        font-size: 28px;
+
+    }
+}
+
+.go a {
+    width: 30% !important;
+    border-radius: 40px;
+    height: 3.5rem;
+    /*height: 15%;*/
+}
+
+.go {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.go span {
+    /*padding: 2rem;*/
+}
+
+.c {
+    padding-top: 10rem;
+}
+
+.c1 {
+    margin-top: 20%;
+}
+.card11 p{
+    font-weight: 600;
+}
+.go a{
+    text-align: center;
+    /*vertical-align: middle;*/
+    padding-top: 1.8%;
+    /*padding-bottom: 2% !important;*/
+}
+@media (max-width: 1000px)  {
+.go a {
+    padding-top: 2.5%;
+}
+}
+@media (max-width: 780px)  {
+    .go a {
+        /*padding-top: 5.5%;*/
+        width: 60% !important;
+    }
+}
+@media (max-width: 480px)  {
+    .card11 p{
+        line-height: 34px!important;
+    }
+    .go a {
+        padding-top: 5%;
+        /*width: 60% !important;*/
+    height: 4rem;
+    }
+}
+@media (max-width: 420px)  {
+    .go a {
+        /*padding-top: 5.5%;*/
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer_logo span {
+        font-size: 7px;
+        margin-left: 0 !important;
+    }
+}
+
+.footer {
+    border-top: solid #009AFF;
+}
+@media (max-width: 500px) {
+
+
+    .footer_logo span {
+        font-size: 8.5px;
+    }
+}
+.logo{
+    /*padding-top: 0!important;*/
+    /*padding-right: 0!important;*/
+    /*padding-left: 0;*/
+}
+.footer_logo img {
+    width: 18.5%;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    .footer_logo img {
+        width: 22.5%;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer_logo img {
+        width: 25.5%;
+        margin-right: 0rem;
+    }
+}
+
+.footer div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer p, span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.footer .ufaber {
+    width: 32.5%;
+    /*height: 5.8vw;*/
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 650px) {
+    .footer .ufaber {
+        width: 45.5%;
+    }
+}
+
+.logo {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media (min-width: 80px) {
+    .last {
+        font-size: calc(0.5rem + ((1vw - 0.8px) * 0.7065));
+    }
+}
+
+@media (min-width: 1920px) {
+    .last {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 80px) {
+    footer div, p, .footer_logo span {
+        font-size: calc(0.625rem + ((1vw - 0.8px) * 0.9783));
+    }
+}
+
+@media (min-width: 1920px) {
+    footer div, p, .footer_logo span {
+        font-size: 28px;
+    }
+}
+footer img{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+.logo p{
+    text-align: left;
+}
+@media (max-width: 500px) {
+    .footer_logo span {
+        font-size: 9.5px;
+        margin-left: 0.3rem !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer_logo span {
+        font-size: 7.5px;
+        margin-left: 0.2rem !important;
+    }
+}

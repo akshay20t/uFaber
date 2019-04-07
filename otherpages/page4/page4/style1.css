@@ -1,0 +1,132 @@
+
+.navbar {
+    background-color: #e8f7fe;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url(./logo.svg);
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    width: 300px;
+    left: 134px;
+    /*top:95px; */
+    height: 54px;
+    /* max-height: 90px; height of the navbar */
+    background-size: contain;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #0899fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 109px;
+
+}
+
+.navbar .navbar-brand span {
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 78px;
+    margin-top: 88px;
+    z-index: 500;
+    height: 50px;
+    width: 50px;
+}
+
+.sidenav a {
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 4.7rem;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.boxshadow {
+    box-shadow: 100px 100px #000;
+    opacity: 0.4;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 880px) {
+    .navbar-brand {
+        /* width:0px; */
+        left: 55px;
+
+    }
+
+}
+
+@media (max-width: 675px) {
+    .navbar-brand {
+        /* width:0px; */
+        left: 0px;
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 675px) {
+    .navbar span {
+        margin-right: 0 !important;
+        margin-top: 25px!important;
+    }
+}
+
+@media (max-width: 675px) {
+    .navbar-brand {
+        left: 0 !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-brand {
+        width: 170px
+    }
+
+    .navbar img {
+        width: 1.7rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbar-brand {
+        width: 110px
+    }
+
+    .navbar img {
+        width: 1.2rem;
+    }
+}
