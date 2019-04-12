@@ -683,8 +683,8 @@ body {
 }
 
 .footer_logo img {
-    width: 18.5%;
-    margin-right: 0.5rem;
+    width: 10.5%;
+    margin-right: 0.6rem;
 }
 
 @media (max-width: 900px) {
@@ -712,9 +712,9 @@ body {
 }
 
 .footer .ufaber {
-    width: 32.5%;
+    width: 25%;
     /*height: 5.8vw;*/
-    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 650px) {
@@ -799,5 +799,60 @@ body {
 @media (min-width: 750px) and (max-width: 900px)  {
     .third_sec{
         padding-left: 4rem!important;
+    }
+}
+/*@media (min-width: 320px) {*/
+    /*.logo  {*/
+        /*font-size: calc(0.5rem + ((1vw - 3.2px) * 0.5));*/
+    /*}*/
+/*}*/
+@media (min-width: 1920px) {
+    .logo  {
+        font-size: 16px;
+    }
+}
+.footer_logo span{
+    font-size: 16px;
+}
+@media (max-width: 630px)  {
+    .footer_logo span{
+        font-size: 14px;
+    }
+}
+@media (max-width: 560px)  {
+    .footer_logo span{
+        font-size: 13px;
+    }
+}
+@media (max-width: 531px)  {
+    .footer_logo span{
+        font-size: 12px;
+    }
+}
+@media (max-width: 510px)  {
+    .footer_logo span{
+        font-size: 11px;
+    }
+}
+@media (max-width: 479px)  {
+    .footer_logo span{
+        font-size: 10px;
+    }
+}
+@media (max-width: 445px)  {
+    .footer_logo span{
+        font-size: 8px;
+    }
+}
+@media (max-width: 1920px)and (min-width: 700px)  {
+    .follow{
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 699px)  {
+    .follow {
+        margin-left: 0.5rem;
+
     }
 }

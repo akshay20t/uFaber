@@ -1,3 +1,37 @@
+.rack {
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 78px;
+    margin-top: 8px !important;
+    z-index: 500;
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 1000px) {
+    .rack {
+        margin-right: 15px !important;
+    }
+
+}
+#whole {
+    margin-top: 7.1rem;
+}
+@media (max-width: 1100px)  {
+    #whole{
+        margin-top: 7.1rem;
+    }
+}
+@media (max-width: 675px)  {
+    #whole{
+        margin-top: 6.5rem;
+    }
+}
+@media (max-width: 675px)  {
+    #whole{
+        margin-top: 7rem;
+    }
+}
 
 .navbar {
     background-color: #e8f7fe;
@@ -6,7 +40,7 @@
 .navbar-brand {
     position: relative;
     background: url(./logo.svg);
-    margin-top: 80px;
+    margin-top: 28px;
     background-repeat: no-repeat;
     width: 300px;
     left: 134px;
@@ -80,19 +114,22 @@
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1000px) {
     .navbar-brand {
         /* width:0px; */
         left: 55px;
 
     }
-
 }
-
-@media (max-width: 675px) {
+@media (max-width: 800px) {
     .navbar-brand {
         /* width:0px; */
         left: 0px;
+
+    }
+}
+@media (max-width: 675px) {
+    .navbar-brand {
         margin-top: 25px;
     }
 

@@ -2,7 +2,9 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
-
+.logo p  {
+    font-size: 16px!important;
+}
 nav {
     background: #e8f7fe;
 }
@@ -440,20 +442,21 @@ button {
 
 /*////////*/
 .footer_logo img {
-    width: 18.5%;
-    margin-right: 0.5rem;
+    /*letter-spacing: 2rem;*/
+    width: 10.5%;
+    margin-right: 0.6rem;
 }
 
 @media (max-width: 900px) {
     .footer_logo img {
-        width: 22.5%;
+        width: 15.5%;
         margin-right: 0.5rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
     .footer_logo img {
-        width: 25.5%;
+        width: 20.5%;
         margin-right: 0rem;
     }
 }
@@ -469,9 +472,9 @@ button {
 }
 
 .footer .ufaber {
-    width: 32.5%;
+    width: 25%;
     /*height: 5.8vw;*/
-    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 650px) {
@@ -498,13 +501,13 @@ button {
 }
 
 @media (min-width: 80px) {
-    footer div, p, .footer_logo span {
+    p {
         font-size: calc(0.625rem + ((1vw - 0.8px) * 0.9783));
     }
 }
 
 @media (min-width: 1920px) {
-    footer div, p, .footer_logo span {
+     p {
         font-size: 28px;
     }
 }
@@ -556,4 +559,59 @@ button {
 
 .footer {
     border-top: solid #009AFF;
+}
+/*@media (min-width: 320px) {*/
+    /*.logo  {*/
+        /*font-size: calc(0.5rem + ((1vw - 3.2px) * 0.5));*/
+    /*}*/
+/*}*/
+@media (min-width: 1920px) {
+    .logo  {
+        font-size: 16px;
+    }
+}
+.footer_logo span{
+    font-size: 16px;
+}
+@media (max-width: 630px)  {
+    .footer_logo span{
+        font-size: 14px;
+    }
+}
+@media (max-width: 560px)  {
+    .footer_logo span{
+        font-size: 13px;
+    }
+}
+@media (max-width: 531px)  {
+    .footer_logo span{
+        font-size: 12px;
+    }
+}
+@media (max-width: 510px)  {
+    .footer_logo span{
+        font-size: 11px;
+    }
+}
+@media (max-width: 479px)  {
+    .footer_logo span{
+        font-size: 10px;
+    }
+}
+@media (max-width: 445px)  {
+.footer_logo span{
+    font-size: 8px;
+}
+}
+@media (max-width: 1920px)and (min-width: 700px)  {
+    .follow{
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 699px)  {
+    .follow {
+        margin-left: 0.5rem;
+
+    }
 }

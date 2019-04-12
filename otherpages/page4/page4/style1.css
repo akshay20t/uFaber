@@ -1,12 +1,54 @@
+.rack {
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 78px;
+    margin-top: 8px !important;
+    z-index: 500;
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 1000px) {
+    .rack {
+        margin-right: 15px !important;
+    }
+
+}
+
+
+#whole {
+    margin-top: 7.1rem;
+}
+@media (max-width: 1100px)  {
+    #whole{
+        margin-top: 7.1rem;
+    }
+}
+@media (max-width: 675px)  {
+    #whole{
+        margin-top: 6.5rem;
+    }
+}
+@media (max-width: 675px)  {
+    #whole{
+        margin-top: 7rem;
+    }
+}
 
 .navbar {
     background-color: #e8f7fe;
-}
+    /*margin: auto;*/
 
+}
+@media (max-width: 1000px)  {
+    .navbar span{
+/*margin-right: 15px!important;*/
+    }
+}
 .navbar-brand {
     position: relative;
     background: url(./logo.svg);
-    margin-top: 80px;
+    margin-top: 28px;
     background-repeat: no-repeat;
     width: 300px;
     left: 134px;
@@ -40,7 +82,12 @@
     height: 50px;
     width: 50px;
 }
-
+@media (max-width: 1000px)  {
+.navbar-brand span{
+    /*margin-right: 10px!important;*/
+    /*width: 0!important;*/
+}
+}
 .sidenav a {
     font-family: 'Open Sans', sans-serif;
     padding: 8px 8px 8px 32px;
@@ -79,14 +126,17 @@
         font-size: 18px;
     }
 }
-
-@media (max-width: 880px) {
+@media (max-width: 1200px) {
     .navbar-brand {
         /* width:0px; */
-        left: 55px;
-
+        left: 48px;
     }
-
+}
+@media (max-width: 800px) {
+    .navbar-brand {
+        /* width:0px; */
+        left: 0px;
+    }
 }
 
 @media (max-width: 675px) {

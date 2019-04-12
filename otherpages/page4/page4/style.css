@@ -188,15 +188,6 @@ div p {
 
 @media (max-width: 425px) {
 
-    .btn {
-        /*min-width: 5rem;*/
-        /*border-radius: 48px;*/
-        /*padding-left: 0.4rem;*/
-        /*padding-right: 0.4rem;*/
-        /*padding-top: 0.5rem;*/
-        /*padding-bottom: 0.5rem;*/
-    }
-
     .btn-outline-secondary:hover {
         border-radius: 48px;
         padding-right: 0.4rem;
@@ -363,8 +354,8 @@ div p {
     /*padding-left: 0;*/
 }
 .footer_logo img {
-    width: 18.5%;
-    margin-right: 0.5rem;
+    width: 10.5%;
+    margin-right: 0.6rem;
 }
 
 @media (max-width: 900px) {
@@ -374,7 +365,7 @@ div p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
     .footer_logo img {
         width: 25.5%;
         margin-right: 0rem;
@@ -392,9 +383,9 @@ div p {
 }
 
 .footer .ufaber {
-    width: 32.5%;
+    width: 25%;
     /*height: 5.8vw;*/
-    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 650px) {
@@ -421,13 +412,13 @@ div p {
 }
 
 @media (min-width: 80px) {
-    footer div, p, .footer_logo span {
+     p {
         font-size: calc(0.625rem + ((1vw - 0.8px) * 0.9783));
     }
 }
 
 @media (min-width: 1920px) {
-    footer div, p, .footer_logo span {
+     p{
         font-size: 28px;
     }
 }
@@ -440,14 +431,72 @@ footer img{
 }
 @media (max-width: 500px) {
     .footer_logo span {
-        font-size: 9.5px;
+        /*font-size: 9.5px;*/
         margin-left: 0.3rem !important;
     }
 }
 
 @media (max-width: 370px) {
     .footer_logo span {
-        font-size: 7.5px;
+        /*font-size: 7.5px;*/
         margin-left: 0.2rem !important;
     }
 }
+/*@media (min-width: 320px) {*/
+    /*.logo  {*/
+        /*font-size: calc(0.5rem + ((1vw - 3.2px) * 0.5)) !important;*/
+    /*}*/
+/*}*/
+@media (min-width: 1920px) {
+    .logo  {
+        font-size: 16px!important;
+    }
+}
+.footer_logo span{
+    font-size: 16px;
+}
+@media (max-width: 630px)  {
+    .footer_logo span{
+        font-size: 14px;
+    }
+}
+@media (max-width: 560px)  {
+    .footer_logo span{
+        font-size: 13px;
+    }
+}
+@media (max-width: 531px)  {
+    .footer_logo span{
+        font-size: 12px;
+    }
+}
+@media (max-width: 510px)  {
+    .footer_logo span{
+        font-size: 11px;
+    }
+}
+@media (max-width: 479px)  {
+    .footer_logo span{
+        font-size: 10px;
+    }
+}
+@media (max-width: 445px)  {
+    .footer_logo span{
+        font-size: 8px;
+    }
+}
+.logo p  {
+    font-size: 16px!important;
+}
+@media (max-width: 1920px)and (min-width: 700px)  {
+    .follow{
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 699px)  {
+    .follow {
+        margin-left: 0.5rem;
+
+    }
+    }

@@ -1,19 +1,54 @@
-
-.navbar {
-    /*background-color: #e8f7fe;*/
+.rack {
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-right: 78px;
+    margin-top: 8px !important;
+    z-index: 500;
+    height: 50px;
+    width: 50px;
 }
 
-.navbar-brand {
-    /*position: relative;*/
-    /*background: url(./logo.svg);*/
-    /*margin-top: 80px;*/
-    /*background-repeat: no-repeat;*/
-    /*width: 300px;*/
-    /*left: 134px;*/
-    /*!*top:95px; *!*/
-    /*height: 54px;*/
-    /*!* max-height: 90px; height of the navbar *!*/
-    /*background-size: contain;*/
+.icon {
+    width: 8.375rem;
+}
+#whole{
+    margin-top: 9.3rem;
+}
+@media (max-width: 633px) {
+    .icon {
+        width: 7rem;
+    }
+
+
+}
+@media (max-width: 633px)  {
+    #whole{
+        margin-top: 8rem!important;
+    }
+}
+@media (max-width: 500px) {
+    .icon {
+        width: 4.6875rem;
+    }
+    #whole{
+        margin-top: 5.6rem!important;
+    }
+}
+
+@media (max-width: 630px)  {
+    #whole{
+        margin-top: 0;
+    }
+}
+.navbar {
+    margin-left: 7.2%;
+}
+
+@media (max-width: 1000px) {
+    .rack {
+        margin-right: 15px !important;
+    }
 }
 
 .sidenav {
@@ -30,7 +65,7 @@
 
 }
 
-.navbar  span {
+.navbar span {
     font-size: 30px;
     cursor: pointer;
     float: right;
@@ -80,51 +115,26 @@
     }
 }
 
-@media (max-width: 880px) {
-    /*.navbar-brand {*/
-        /*!* width:0px; *!*/
-        /*left: 55px;*/
-
-    /*}*/
-
-}
-
-@media (max-width: 675px) {
-    /*.navbar-brand {*/
-        /*!* width:0px; *!*/
-        /*left: 0px;*/
-        /*margin-top: 25px;*/
-    /*}*/
-
-}
 
 @media (max-width: 675px) {
     .navbar span {
         margin-right: 0 !important;
-        margin-top: 25px!important;
+        margin-top: 25px !important;
     }
 }
 
-@media (max-width: 675px) {
-    /*.navbar-brand {*/
-        /*left: 0 !important;*/
-    /*}*/
-}
 
-@media (max-width: 420px) {
-    /*.navbar-brand {*/
-        /*width: 170px*/
-    /*}*/
+@media (max-width: 520px) {
 
     .navbar .img {
         width: 1.7rem;
     }
+    .navbar span{
+        margin-top: 0px!important;
+    }
 }
 
 @media (max-width: 300px) {
-    /*.navbar-brand {*/
-        /*width: 110px*/
-    /*}*/
 
     .navbar .img {
         width: 1.2rem;
