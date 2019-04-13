@@ -6,46 +6,38 @@ body {
     overflow-x: hidden;
 }
 /* 20px @ 200px increasing to 45px @ 1920px */
-@media (min-width: 200px) {
-    .top_sec h1 {
-        font-size: calc(1.25rem + ((1vw - 2px) * 1.4535));
-        /* Where: * 1.4535 = 100 * font_Size_Difference / viewport_Width_Difference */
-    }
-}
-
-/* Prevent font scaling beyond this breakpoint */
-@media (min-width: 1920px) {
-    .top_sec h1 {
-        font-size: 45px;
-    }
-}
-
 @media (min-width: 320px) {
-    .top_sec_cont span  {
-        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
+    .top_sec h1 {
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-@media (min-width: 1920px) {
-    .top_sec_cont span  {
-        font-size: 20px;
+  }
+  @media (min-width: 1920px) {
+    .top_sec h1 {
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 200px increasing to 28px @ 1920px */
-/* FOR CARD */
-@media (min-width: 200px) {
-    .card1 p {
-        font-size: calc(0.6875rem + ((1vw - 2px) * 0.9884));
-        /* Where: * 0.9884 = 100 * font_Size_Difference / viewport_Width_Difference */
+  @media (min-width: 320px) {
+    .top_sec_cont span {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
     }
-}
+  }
+  @media (min-width: 1920px) {
+    .top_sec_cont span {
+      font-size: 20px;
+    }
+  }
 
-/* Prevent font scaling beyond this breakpoint */
-@media (min-width: 1920px) {
+  @media (min-width: 320px) {
     .card1 p {
-        font-size: 28px;
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
     }
-}
+  }
+  @media (min-width: 1920px) {
+    .card1 p {
+      font-size: 18px;
+    }
+  }
 
 @media (min-width: 80px) {
     a {
@@ -252,20 +244,16 @@ div p {
     line-height: 2.8rem;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 320px) {
     .card11 p {
-        font-size: calc(0.6875rem + ((1vw - 2px) * 0.9884));
-        /* Where: * 0.9884 = 100 * font_Size_Difference / viewport_Width_Difference */
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-/* Prevent font scaling beyond this breakpoint */
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .card11 p {
-        font-size: 28px;
-
+      font-size: 18px;
     }
-}
+  }
 
 .go a {
     width: 30% !important;
