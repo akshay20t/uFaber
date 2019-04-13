@@ -795,17 +795,16 @@ body {
 
 .footer{
     border-top: solid #009AFF;
+    border-width: thin;
 }
 @media (min-width: 750px) and (max-width: 900px)  {
     .third_sec{
         padding-left: 4rem!important;
     }
 }
-/*@media (min-width: 320px) {*/
-    /*.logo  {*/
-        /*font-size: calc(0.5rem + ((1vw - 3.2px) * 0.5));*/
-    /*}*/
-/*}*/
+.navbar{
+    /*overflow: hidden;*/
+}
 @media (min-width: 1920px) {
     .logo  {
         font-size: 16px;

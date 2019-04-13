@@ -20,18 +20,14 @@ body {
     }
 }
 
-/* 16px @ 200px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .top_sec_cont span {
-        font-size: calc(1rem + ((1vw - 2px) * 0.6977));
-        /* Where: * 0.6977 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .top_sec_cont span  {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
     }
 }
-
-/* Prevent font scaling beyond this breakpoint */
 @media (min-width: 1920px) {
-    .top_sec_cont span {
-        font-size: 28px;
+    .top_sec_cont span  {
+        font-size: 20px;
     }
 }
 
@@ -75,7 +71,7 @@ body {
 }
 
 .top_sec h1 {
-    padding-bottom: 2.7rem !important;
+    padding-bottom: 0.7rem !important;
     font-weight: 800 !important;
     /*font-weight: 800;*/
 }
@@ -243,10 +239,10 @@ div p {
 }
 
 .card11 img {
-    padding-left: 28%;
-    padding-right: 28%;
+    padding-left: 33%;
+    padding-right: 33%;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 3.5rem;
 }
 
 .card11 p {
@@ -300,8 +296,11 @@ div p {
 .go a{
     text-align: center;
     /*vertical-align: middle;*/
-    padding-top: 1.8%;
+    padding-top: 1.3%;
     /*padding-bottom: 2% !important;*/
+}
+.go a:hover{
+    border: transparent;
 }
 @media (max-width: 1000px)  {
 .go a {
@@ -340,6 +339,7 @@ div p {
 
 .footer {
     border-top: solid #009AFF;
+    border-width: thin;
 }
 @media (max-width: 500px) {
 
