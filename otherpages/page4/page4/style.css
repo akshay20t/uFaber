@@ -5,17 +5,16 @@ body,html {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
-/* 20px @ 200px increasing to 45px @ 1920px */
-@media (min-width: 320px) {
+@media (min-width: 80px) {
     .top_sec h1 {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.125rem + ((1vw - 3.2px) * 2));
     }
-  }
-  @media (min-width: 1920px) {
+}
+@media (min-width: 1920px) {
     .top_sec h1 {
-      font-size: 28px;
+        font-size: 50px;
     }
-  }
+}
 
   @media (min-width: 320px) {
     .top_sec_cont span {

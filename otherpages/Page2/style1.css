@@ -8,6 +8,7 @@
     height: 50px;
     width: 38px;
 }
+
 .mtt {
     margin-top: 6rem;
     width: 82%;
@@ -21,18 +22,21 @@
     padding-top: 2rem;
     height: 1px;
     width: 82%; /* or 100px */
-    border-top:1px solid white;
+    border-top: 1px solid white;
 }
+
 @media (max-width: 1000px) {
     .rack {
         margin-right: 15px !important;
         /*width: 45px;*/
     }
 }
+
 @media (max-width: 750px) {
     .rack {
         margin-right: 50px !important;
     }
+
     .navbar-brand span {
     }
 }
@@ -54,14 +58,16 @@
 
 @media (max-width: 675px) {
     #whole {
-        margin-top: 7.3rem;
+        margin-top: 7rem;
     }
 }
+
 @media (max-width: 510px) {
     #whole {
         margin-top: 7rem;
     }
 }
+
 .navbar-brand {
     position: relative;
     background: url(./logo.svg);
@@ -184,5 +190,190 @@
 
     .navbar img {
         width: 1.2rem;
+    }
+}
+
+.second_sec .card-title {
+    background: url("assets/one.png") no-repeat;
+}
+
+@media (max-width: 680px) {
+    .second_sec .card-text {
+        line-height: 1.5rem !important;
+    }
+
+    .second_sec .card-text {
+        margin-right: -2rem;
+    }
+}
+
+@media (max-width: 1010px) {
+     .d1 {
+        padding-top: 3.5rem !important;
+    }
+}
+
+@media (max-width: 771px) {
+    .second_section h2 {
+        padding-top: 3.3rem !important;
+    }
+    .d1{
+        padding-top: 0rem!important;
+
+    }
+}
+@media (max-width: 766px) {
+    .second_section h2 {
+        padding-top: 4.3rem !important;
+    }
+    .d1{
+        padding-top: 0rem!important;
+    }
+    .second_section .card-text{
+        margin-right: -1.4rem!important;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .second_section .card-text{
+        margin-left: -3.5rem;
+    }
+}
+
+@media (max-width: 635px) {
+    .second_section h2 {
+        padding-bottom: 2rem !important;
+    }
+    .d1{
+        margin-top: -1rem;
+    }
+}
+@media (max-width: 920px)  {
+    .second_section h2{
+        background-size: 80px!important;
+    }
+}
+@media (max-width: 576px) {
+    .second_section .card-text{
+        margin-left: 0!important;
+        /*ma*/
+    }
+    .second_section h2{
+        background-size: 65px!important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .second_sec .card-text {
+        line-height: 2rem !important;
+    }
+
+    .second_sec .card-text {
+        margin-right: 0rem;
+    }
+
+    .second_sec img {
+        padding-top: 5rem !important;
+    }
+
+    .second_section h2 {
+        padding-top: 3.5rem !important;
+    }
+
+    .third_sec h2 {
+        padding-top: 4.8rem;
+    }
+
+    .third_sec img {
+        padding-top: 2.5rem !important;
+    }
+
+    .sixth_sec .card-title {
+        padding-top: 3.8rem !important;
+    }
+
+    .sixth_sec img {
+        padding-top: 2rem;
+    }
+
+    .sixth_sec {
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width: 480px)  {
+    .third_sec h2{
+        padding-top: 3.8rem;
+    }
+}
+@media (max-width: 420px)  {
+    .third_sec h2{
+        padding-top: 3rem;
+    }
+}
+@media (max-width: 390px)  {
+    .third_sec h2{
+        padding-top: 2.5rem;
+    }
+}
+@media (max-width: 340px)  {
+    .third_sec h2{
+        padding-top: 2rem;
+    }
+}
+@media (max-width: 655px) {
+    .third_sec .card-text {
+        /*padding-bottom: 0rem!important;*/
+        margin-right: -3rem !important;
+    }
+}
+
+@media (max-width: 355px) {
+    .second_section img {
+        padding-top: 1rem;
+    }
+
+    .third_sec .card-text {
+        /*padding-bottom: 0rem!important;*/
+        margin-right: 0rem !important;
+        line-height: 1.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .second_section img {
+        padding-top: 2rem;
+    }
+}
+.second_section .card-title{
+    background: url("assets/two.png") no-repeat;
+    background-size:100px ;
+}
+.third_sec .card-title{
+    background: url("assets/three.png") no-repeat;
+    background-size:18.5%;
+}
+.fourth_sec h2{
+    background: url("assets/four.png") no-repeat;
+    background-size: 100px;
+}
+.sixth_sec .card-title{
+    background: url("assets/five.png") no-repeat;
+    background-size: 100px;
+}
+@media (max-width: 750px)  {
+.d2{
+   padding-top: 5rem!important;
+}
+}
+@media (max-width: 640px)  {
+    .d3{
+        padding-top: 5rem!important;
+    }
+    .sixth_sec .card-text{
+        margin-right: -3.5rem;
+        margin-left: -2rem;
     }
 }

@@ -2,16 +2,16 @@
     font-size: 16px !important;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 80px) {
     .top_sec h1 {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.125rem + ((1vw - 3.2px) * 2));
     }
-  }
-  @media (min-width: 1920px) {
+}
+@media (min-width: 1920px) {
     .top_sec h1 {
-      font-size: 28px;
+        font-size: 50px;
     }
-  }
+}
 
   @media (min-width: 320px) {
     .top_sec span  {
@@ -290,9 +290,9 @@ span, .card-text {
 @media (max-width: 660px) and (min-width: 580px) {
     .first_section .card-text {
         padding-right: 5.5rem;
-        line-height: 1.2rem;
-        margin-right: auto;
-        margin-left: auto;
+        line-height: 1.5rem;
+        margin-right: -2rem;
+        margin-left: -2rem;
     }
 }
 
@@ -483,9 +483,35 @@ span, .card-text {
         padding-bottom: 6rem;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 895px) {
+    .line{
+        padding-top: 3rem;
+    }
     .fifth_section {
         padding-bottom: 2rem;
+        padding-top: 3rem;
+
+        /*margin-left: -3rem;*/
+    }
+    .fifth_section .card-text{
+        /*padding-bottom: 2rem;*/
+        line-height: 2.2rem;
+        margin-right: -2.5rem;
+    }
+}
+@media (max-width: 660px){
+    .fifth_section .card-text{
+        margin-right: -4.5rem;
+        line-height: 2rem;
+    }
+    .fifth_section .card-text{
+        /*padding-bottom: 2rem;*/
+        /*margin-right: 0rem;*/
+    }
+}
+@media (max-width: 576px)  {
+    .fifth_section .card-text{
+        margin-right: 0rem;
     }
 }
 @media (max-width: 650px) {
@@ -748,7 +774,7 @@ span, .card-text {
     font-weight: 400;
 }
 
-.footer p, span {
+.footer p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
