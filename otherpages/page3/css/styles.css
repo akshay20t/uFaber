@@ -1,4 +1,3 @@
-
 .logo p {
     font-size: 16px !important;
 }
@@ -538,8 +537,28 @@ span, .card-text {
 
     }
 }
-.carousel-item {
+.cc{
     height: 37rem;
+}
+@media (max-width: 650px)  {
+    .cc{
+        height:  30rem;
+    }
+}
+@media (max-width: 530px)  {
+    .cc{
+        height:  25rem;
+    }
+}
+@media (max-width: 480px)  {
+    .cc{
+        height:  20rem;
+    }
+}
+@media (max-width: 355px)  {
+    .cc{
+        height:  16rem;
+    }
 }
 .carousel-item img {
     /*height: 37rem !important;*/
@@ -547,18 +566,20 @@ span, .card-text {
 
 .round_image {
     text-align: center;
+    /*padding-bottom: 7rem;*/
+}
+#pro{
     padding-bottom: 7rem;
 }
-
 .round_image h1 {
     padding-bottom: 3.8rem;
 }
 
 .round_image img {
-    width: 15rem;
+    width: 12rem!important;
     height: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    /*padding-right: 2rem!important;*/
+    /*padding-left: 2rem;*/
 
 }
 

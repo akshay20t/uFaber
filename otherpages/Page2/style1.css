@@ -3,10 +3,10 @@
     cursor: pointer;
     float: right;
     margin-right: 78px;
-    margin-top: 8px !important;
+    margin-top: 18px !important;
     z-index: 500;
     height: 50px;
-    width: 50px;
+    width: 38px;
 }
 
 @media (max-width: 1000px) {

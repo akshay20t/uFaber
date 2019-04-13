@@ -105,11 +105,7 @@
     }
 }
 
-@media (max-width: 1000px) {
-    .rack {
-        margin-right: 15px !important;
-    }
-}
+
 
 .sidenav {
     height: 100%;
@@ -133,9 +129,16 @@
     margin-top: 88px;
     z-index: 500;
     height: 50px;
-    width: 50px;
+    width: 40px;
 }
-
+@media (max-width: 1100px) {
+    .rack {
+        margin-right: 15px !important;
+    }
+    .navbar span{
+        width: 35px;
+    }
+}
 .sidenav a {
     font-family: 'Open Sans', sans-serif;
     padding: 8px 8px 8px 32px;
@@ -195,7 +198,7 @@
 @media (max-width: 520px) {
 
     .navbar .img {
-        width: 1.7rem;
+        width: 1rem;
     }
     .navbar span{
         margin-top: 0px!important;

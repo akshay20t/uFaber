@@ -6,8 +6,8 @@
     <!--<title>Title</title>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="http://code.jquery.com/jquery-3.4.0.js"
+            integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -15,11 +15,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
           rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="style1.css">
     <script src="script.js"></script>
+    <script src="car.js"></script>
     <title>uFaber</title>
 </head>
 <body>
@@ -174,13 +177,13 @@ lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item cc active">
                     <img src="./pics/Asset%205.svg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item cc">
                     <img src="./pics/Asset%205.svg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item cc">
                     <img src="./pics/Asset%205.svg" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -200,17 +203,52 @@ lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
         <h1>
             The Team
         </h1>
-        <!--<div class="row ">-->
-        <!--<div class="col">-->
-        <div class="">
-            <img src="pics/Asset%2075.svg" style="opacity: 0.5">
-            <img src="pics/Asset%2075.svg">
-            <img src="pics/Asset%2075.svg" style="opacity: 0.5">
-        </div>
-        <!--</div>-->
-        <!--</div>-->
     </div>
     <!--//////////-->
+    <!---->
+
+    <div class=" round_image" id="pro">
+        <div class="container">
+            <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId1" alt="img1">
+                    </div>
+
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId2" alt="img2">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId3" alt="img3">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId4" alt="img4">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId5" alt="img5">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId6" alt="img6">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId7" alt="img7">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="pics/Asset%2075.svg" class="img-fluid mx-auto d-block" id="imgId8" alt="img8">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!---->
 
     <div class="container desc_div">
         <div class="row">
@@ -218,14 +256,65 @@ lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
                 <img src="pics/Asset%207.svg" class="rounded">
             </div>
             <div class="col-8 lor">
-                <h1>Lorem ipsum</h1>
-                <span>
+                <h1 id="deth1">Lorem ipsum</h1>
+                <span id="det">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                         tincidunt ut laoreet dolore magna aliquam erat volutpat.
             </span>
             </div>
         </div>
     </div>
+    <!---->
+    <script>
+        $(document).ready(function () {
+            $.getJSON("./frontend.json", function (data) {
+                const arrItems = [];      // THE ARRAY TO STORE JSON ITEMS.
+                $.each(data, function (index, value) {
+                    arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
+                });
+                console.log(arrItems)
+                document.getElementById("deth1").innerHTML = arrItems[0][0].title;
+                document.getElementById("det").innerHTML = arrItems[0][0].text;
+                $("#imgId1").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][0].title;
+                    document.getElementById("det").innerHTML = arrItems[0][0].text;
+                });
+                $("#imgId2").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][1].title;
+                    document.getElementById("det").innerHTML = arrItems[0][1].text;
+                });
+                $("#imgId3").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][2].title;
+                    document.getElementById("det").innerHTML = arrItems[0][2].text;
+                });
+                $("#imgId4").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][3].title;
+                    document.getElementById("det").innerHTML = arrItems[0][3].text;
+                });
+                $("#imgId5").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][4].title;
+                    document.getElementById("det").innerHTML = arrItems[0][4].text;
+                });
+                $("#imgId6").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][5].title;
+                    document.getElementById("det").innerHTML = arrItems[0][5].text;
+                });
+                $("#imgId7").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][6].title;
+                    document.getElementById("det").innerHTML = arrItems[0][6].text;
+                });
+                $("#imgId8").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][7].title;
+                    document.getElementById("det").innerHTML = arrItems[0][7].text;
+                });
+                $("#imgId9").click(function () {
+                    document.getElementById("deth1").innerHTML = arrItems[0][8].title;
+                    document.getElementById("det").innerHTML = arrItems[0][8].text;
+                });
+            })
+        })
+    </script>
+
     <!--/////////////-->
     <div class=" container-fluid sixth_section">
         <div class="container">
