@@ -3,85 +3,76 @@ html,body {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 80px) {
+@media (min-width: 320px) {
     .top_sec h1 {
-        font-size: calc(1.375rem + ((1vw - 0.8px) * 1.5217));
+      font-size: calc(1.125rem + ((1vw - 3.2px) * 0.625));
     }
-}
-
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .top_sec h1 {
-        font-size: 50px;
+      font-size: 28px;
     }
-}
+  }
 
-@media (min-width: 80px) {
+  @media (min-width: 320px) {
     .top_sec span {
-        font-size: calc(0.75rem + ((1vw - 0.8px) * 1.1957));
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
     }
-}
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .top_sec span {
-        font-size: 34px;
+      font-size: 20px;
     }
-}
+  }
 
-@media (min-width: 80px) {
+  @media (min-width: 320px) {
     .second_sec .card-title {
-        font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
-        /* Where: * 1.9512 = 100 * font_Size_Difference / viewport_Width_Difference */
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .second_sec .card-title {
-        font-size: 48px;
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 280px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .second_sec .card-text {
-        font-size: calc(0.6875rem + ((1vw - 2.8px) * 1.0366));
-        /* Where: * 1.0366 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .second_sec .card-text  {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-}
-
-@media (min-width: 1920px) {
-    .second_sec .card-text {
-        font-size: 28px;
+  }
+  @media (min-width: 1920px) {
+    .second_sec .card-text  {
+      font-size: 16px;
     }
-}
+  }
 
 /*/////////*/
-@media (min-width: 80px) {
+
+@media (min-width: 320px) {
     .second_section .card-title {
-        font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
-        /* Where: * 1.9512 = 100 * font_Size_Difference / viewport_Width_Difference */
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .second_section .card-title {
-        font-size: 48px;
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 280px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .second_section .card-text {
-        font-size: calc(0.6875rem + ((1vw - 2.8px) * 1.0366));
-        /* Where: * 1.0366 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .second_section .card-text  {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-}
-
-@media (min-width: 1920px) {
-    .second_section .card-text {
-        font-size: 28px;
+  }
+  @media (min-width: 1920px) {
+    .second_section .card-text  {
+      font-size: 16px;
     }
-}
+  }
 
 /*///////*/
+
 @media (min-width: 80px) {
     .fifth_section .card-title {
         font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
@@ -468,32 +459,28 @@ html,body {
     /*height: 34.06425rem;*/
 }
 
-@media (min-width: 80px) {
+
+@media (min-width: 320px) {
     .third_sec .card-title {
-        font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
-        /* Where: * 1.9512 = 100 * font_Size_Difference / viewport_Width_Difference */
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .third_sec .card-title {
-        font-size: 48px;
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 280px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .third_sec .card-text {
-        font-size: calc(0.6875rem + ((1vw - 2.8px) * 1.0366));
-        /* Where: * 1.0366 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .third_sec .card-text  {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-}
-
-@media (min-width: 1920px) {
-    .third_sec .card-text {
-        font-size: 28px;
+  }
+  @media (min-width: 1920px) {
+    .third_sec .card-text  {
+      font-size: 16px;
     }
-}
+  }
 
 .fourth_sec {
     padding-right: 10rem;
@@ -514,36 +501,31 @@ html,body {
 }
 /*////////*/
 
-@media (min-width: 80px) {
-    .fourth_sec h1 {
-        font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
-        /* Where: * 1.9512 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .fourth_sec h2 {
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-@media (min-width: 1920px) {
-    .fourth_sec h1 {
-        font-size: 48px;
+  }
+  @media (min-width: 1920px) {
+    .fourth_sec h2 {
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 280px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .fourth_sec .tex {
-        font-size: calc(0.6875rem + ((1vw - 2.8px) * 1.0366));
-        /* Where: * 1.0366 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .fourth_sec .tex  {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-}
-
-.tex {
-    line-height: 3rem;
-}
-
-@media (min-width: 1920px) {
-    .fourth_sec .tex {
-        font-size: 28px;
+  }
+  @media (min-width: 1920px) {
+    .fourth_sec .tex  {
+      font-size: 16px;
     }
-}
+  }
+
+                    .tex {
+                        line-height: 3rem;
+                    }
 
 @media (max-width: 1300px) {
     .fourth_sec {
@@ -628,32 +610,30 @@ html,body {
     /*height: 34.06425rem;*/
 }
 
-@media (min-width: 80px) {
+
+@media (min-width: 320px) {
     .sixth_sec .card-title {
-        font-size: calc(1rem + ((1vw - 2.8px) * 1.9512));
-        /* Where: * 1.9512 = 100 * font_Size_Difference / viewport_Width_Difference */
+      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-}
-
-@media (min-width: 1920px) {
+  }
+  @media (min-width: 1920px) {
     .sixth_sec .card-title {
-        font-size: 48px;
+      font-size: 28px;
     }
-}
+  }
 
-/* 11px @ 280px increasing to 28px @ 1920px */
-@media (min-width: 80px) {
-    .sixth_sec .card-text {
-        font-size: calc(0.6875rem + ((1vw - 2.8px) * 1.0366));
-        /* Where: * 1.0366 = 100 * font_Size_Difference / viewport_Width_Difference */
+@media (min-width: 320px) {
+    .sixth_sec .card-text  {
+      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-}
+  }
+  @media (min-width: 1920px) {
+    .sixth_sec .card-text  {
+      font-size: 16px;
+    }
+  }
 
-@media (min-width: 1920px) {
-    .sixth_sec .card-text {
-        font-size: 28px;
-    }
-}
+
 
 /*//*/
 @media (min-width: 80px) {
