@@ -781,6 +781,7 @@ span, .card-text {
 
 .footer {
     border-top: solid #009AFF;
+    border-width: thin;
 }
 
 /*@media (min-width: 320px) {*/

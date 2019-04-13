@@ -10,29 +10,34 @@
 }
 
 .icon {
-    width: 8.375rem;
+    width: 6.6rem;
 }
 #whole{
-    margin-top: 9.3rem;
+    padding-top: 6.2rem;
+}
+@media (max-width: 982px)  {
+.icon{
+    width: 6rem;
+}
 }
 @media (max-width: 633px) {
     .icon {
-        width: 7rem;
+        width: 6rem;
     }
 
 
 }
 @media (max-width: 633px)  {
     #whole{
-        margin-top: 8rem!important;
+        /*padding-top: 8rem!important;*/
     }
 }
 @media (max-width: 500px) {
     .icon {
-        width: 4.6875rem;
+        width: 5rem;
     }
     #whole{
-        margin-top: 5.6rem!important;
+        /*margin-top: 5.6rem!important;*/
     }
 }
 
@@ -43,6 +48,7 @@
 }
 .navbar {
     margin-left: 7.2%;
+    height: 6.25rem;
 }
 
 @media (max-width: 1000px) {

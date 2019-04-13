@@ -5,13 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/otherpages/Page2/index.html" afterPath="$PROJECT_DIR$/otherpages/Page2/index.html" />
       <change beforePath="$PROJECT_DIR$/otherpages/Page2/style.css" afterPath="$PROJECT_DIR$/otherpages/Page2/style.css" />
       <change beforePath="$PROJECT_DIR$/otherpages/Page2/style1.css" afterPath="$PROJECT_DIR$/otherpages/Page2/style1.css" />
       <change beforePath="$PROJECT_DIR$/otherpages/page3/css/styles.css" afterPath="$PROJECT_DIR$/otherpages/page3/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/otherpages/page3/index.html" afterPath="$PROJECT_DIR$/otherpages/page3/index.html" />
       <change beforePath="$PROJECT_DIR$/otherpages/page3/style1.css" afterPath="$PROJECT_DIR$/otherpages/page3/style1.css" />
-      <change beforePath="$PROJECT_DIR$/otherpages/page4/page4/index1.html" afterPath="$PROJECT_DIR$/otherpages/page4/page4/index1.html" />
       <change beforePath="$PROJECT_DIR$/otherpages/page4/page4/style.css" afterPath="$PROJECT_DIR$/otherpages/page4/page4/style.css" />
       <change beforePath="$PROJECT_DIR$/otherpages/page4/page4/style1.css" afterPath="$PROJECT_DIR$/otherpages/page4/page4/style1.css" />
       <change beforePath="$PROJECT_DIR$/style1.css" afterPath="$PROJECT_DIR$/style1.css" />
@@ -30,13 +27,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="364" column="74" lean-forward="false" selection-start-line="364" selection-start-column="74" selection-end-line="364" selection-end-column="74" />
+                <state relative-caret-position="247">
+                  <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -73,11 +71,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/index1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="282">
-                  <caret line="181" column="30" lean-forward="false" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
+                <state relative-caret-position="199">
+                  <caret line="70" column="75" lean-forward="true" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="e#2012#2019#1" expanded="true" />
@@ -96,18 +94,48 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="2" selection-end-line="566" selection-end-column="3" />
+                <state relative-caret-position="247">
+                  <caret line="322" column="22" lean-forward="false" selection-start-line="322" selection-start-column="22" selection-end-line="322" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/otherpages/Page2/style1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/otherpages/page3/style1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/style1.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="212">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/otherpages/Page2/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="806" column="9" lean-forward="true" selection-start-line="806" selection-start-column="9" selection-end-line="806" selection-end-column="9" />
+                <state relative-caret-position="247">
+                  <caret line="797" column="23" lean-forward="true" selection-start-line="797" selection-start-column="4" selection-end-line="797" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -116,18 +144,18 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/otherpages/page3/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="847" column="22" lean-forward="false" selection-start-line="847" selection-start-column="22" selection-end-line="847" selection-end-column="22" />
+                <state relative-caret-position="247">
+                  <caret line="783" column="23" lean-forward="false" selection-start-line="783" selection-start-column="23" selection-end-line="783" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1460">
-                  <caret line="422" column="5" lean-forward="true" selection-start-line="422" selection-start-column="5" selection-end-line="422" selection-end-column="5" />
+                <state relative-caret-position="223">
+                  <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -140,14 +168,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>body</find>
-      <find>navbar</find>
       <find>ll</find>
       <find>logo</find>
       <find>24</find>
-      <find>.footer</find>
-      <find>footer_logo i</find>
       <find>.footer_logo im</find>
+      <find>footer_logo i</find>
       <find>footer_logo</find>
+      <find>.footer</find>
+      <find>top_sec</find>
+      <find>navbar</find>
+      <find>icon</find>
+      <find>633</find>
+      <find>ufaber</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,18 +189,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/otherpages/page3/style1.css" />
-        <option value="$PROJECT_DIR$/otherpages/Page2/style1.css" />
-        <option value="$PROJECT_DIR$/otherpages/page4/page4/style1.css" />
-        <option value="$PROJECT_DIR$/style1.css" />
-        <option value="$PROJECT_DIR$/otherpages/page4/page4/index1.html" />
-        <option value="$PROJECT_DIR$/otherpages/page4/page4/style.css" />
         <option value="$PROJECT_DIR$/otherpages/page3/index.html" />
         <option value="$PROJECT_DIR$/otherpages/Page2/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/otherpages/page3/css/styles.css" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/otherpages/Page2/style.css" />
+        <option value="$PROJECT_DIR$/otherpages/page3/css/styles.css" />
+        <option value="$PROJECT_DIR$/style1.css" />
+        <option value="$PROJECT_DIR$/otherpages/Page2/style1.css" />
+        <option value="$PROJECT_DIR$/otherpages/page3/style1.css" />
+        <option value="$PROJECT_DIR$/otherpages/page4/page4/style1.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/otherpages/page4/page4/index1.html" />
+        <option value="$PROJECT_DIR$/otherpages/page4/page4/style.css" />
       </list>
     </option>
   </component>
@@ -211,31 +243,13 @@
             <path>
               <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="uFaber_Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uFaber_Pages" type="462c0819:PsiDirectoryNode" />
               <item name="otherpages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uFaber_Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="otherpages" type="462c0819:PsiDirectoryNode" />
-              <item name="Page2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="uFaber_Pages" type="462c0819:PsiDirectoryNode" />
               <item name="otherpages" type="462c0819:PsiDirectoryNode" />
               <item name="page3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uFaber_Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="otherpages" type="462c0819:PsiDirectoryNode" />
-              <item name="page3" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="uFaber_Pages" type="b2602c69:ProjectViewProjectNode" />
@@ -288,18 +302,18 @@
       <updated>1554654009311</updated>
       <workItem from="1554654011627" duration="1559000" />
       <workItem from="1554721437398" duration="197000" />
-      <workItem from="1554894455882" duration="15752000" />
+      <workItem from="1554894455882" duration="23818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17508000" />
+    <option name="totallyTimeSpent" value="25574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06821787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12585934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -384,6 +398,7 @@
           <caret line="390" column="13" lean-forward="false" selection-start-line="390" selection-start-column="13" selection-end-line="390" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -416,6 +431,7 @@
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -472,52 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/Page2/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1027">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3170">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/page3/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2746">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="181" column="30" lean-forward="false" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2012#2019#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otherpages/page3/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -542,12 +512,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/page3/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="783" column="23" lean-forward="false" selection-start-line="783" selection-start-column="23" selection-end-line="783" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/Page2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="797" column="23" lean-forward="true" selection-start-line="797" selection-start-column="4" selection-end-line="797" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/Page2/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/page3/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="364" column="74" lean-forward="false" selection-start-line="364" selection-start-column="74" selection-end-line="364" selection-end-column="74" />
+        <state relative-caret-position="247">
+          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="322" column="22" lean-forward="false" selection-start-line="322" selection-start-column="22" selection-end-line="322" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="70" column="75" lean-forward="true" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2012#2019#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -557,32 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/otherpages/page4/page4/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1460">
-          <caret line="422" column="5" lean-forward="true" selection-start-line="422" selection-start-column="5" selection-end-line="422" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/page3/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="847" column="22" lean-forward="false" selection-start-line="847" selection-start-column="22" selection-end-line="847" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="2" selection-end-line="566" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otherpages/Page2/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="806" column="9" lean-forward="true" selection-start-line="806" selection-start-column="9" selection-end-line="806" selection-end-column="9" />
+        <state relative-caret-position="223">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding />
         </state>
       </provider>
