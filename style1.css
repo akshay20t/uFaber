@@ -10,9 +10,9 @@
 }
 
 /*.icon {*/
-    /*width: 18.75rem;*/
+/*width: 18.75rem;*/
 /*}*/
-.navbar-brand{
+.navbar-brand {
     position: relative;
     /*background: url(./logo.svg);*/
     margin-top: 0px;
@@ -24,11 +24,13 @@
     /* max-height: 90px; height of the navbar */
     background-size: contain;
 }
+
 @media (max-width: 1100px) {
     .navbar-brand {
         left: 0px;
     }
 }
+
 @media (max-width: 675px) {
     .navbar-brand {
         /* width:0px; */
@@ -37,75 +39,85 @@
     }
 
 }
+
 @media (max-width: 675px) {
     .navbar-brand {
         left: -45px !important;
     }
 }
+
 @media (max-width: 555px) {
     .navbar-brand {
         left: 0px !important;
     }
 }
+
 @media (max-width: 550px) {
     .navbar-brand {
         width: 170px
     }
 
 }
+
 @media (max-width: 380px) {
     .navbar-brand {
         width: 110px
     }
 }
-#whole{
+
+#whole {
     padding-top: 6.2rem;
 }
-@media (max-width: 982px)  {
-.icon{
-    width: 6rem;
+
+@media (max-width: 982px) {
+    .icon {
+        width: 6rem;
+    }
 }
-}
+
 @media (max-width: 633px) {
     .icon {
         width: 6rem;
     }
 
-
 }
-@media (max-width: 633px)  {
-    #whole{
+
+@media (max-width: 633px) {
+    #whole {
         /*padding-top: 8rem!important;*/
     }
 }
+
 @media (max-width: 500px) {
     .icon {
         width: 5rem;
     }
-    #whole{
+
+    #whole {
         /*margin-top: 5.6rem!important;*/
     }
 }
 
-@media (max-width: 630px)  {
-    #whole{
+@media (max-width: 630px) {
+    #whole {
         margin-top: 0;
     }
 }
+
 .navbar {
     /*margin-left: 7.2%;*/
     height: 6.25rem;
 }
-@media (max-width: 450px)  {
-    .navbar{
+
+@media (max-width: 450px) {
+    .navbar {
         height: 5rem;
     }
-    #whole{
-        padding-top: 5rem!important;
+
+    #whole {
+        padding-top: 5rem !important;
     }
 }
-
-
 
 .sidenav {
     height: 100%;
@@ -117,8 +129,24 @@
     background-color: #0899fa;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 109px;
+    padding-top: 70px;
 
+}
+
+.mtt {
+    margin-top: 6rem;
+    width: 82%;
+}
+
+.mtt:before {
+    content: "";
+    position: absolute;
+    /*bottom  : 0rem;*/
+    left: 2rem;
+    padding-top: 2rem;
+    height: 1px;
+    width: 82%; /* or 100px */
+    border-top:1px solid white;
 }
 
 .navbar span {
@@ -131,20 +159,23 @@
     height: 50px;
     width: 40px;
 }
+
 @media (max-width: 1100px) {
     .rack {
         margin-right: 15px !important;
     }
-    .navbar span{
+
+    .navbar span {
         width: 35px;
     }
 }
+
 .sidenav a {
     font-family: 'Open Sans', sans-serif;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1.8rem;
-    line-height: 4.7rem;
+    font-size: 24px;
+    line-height: 3.7rem;
     color: #fff;
     display: block;
     transition: 0.3s;
@@ -178,19 +209,20 @@
     }
 }
 
-
 @media (max-width: 675px) {
     .navbar span {
         margin-right: 0 !important;
         /*margin-top: 25px !important;*/
     }
 }
-@media (max-width: 530px)  {
-    .navbar span{
+
+@media (max-width: 530px) {
+    .navbar span {
         width: 35px;
-        margin-top: 0px!important;
+        margin-top: 0px !important;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         margin-top: 0;
     }
 }
@@ -200,8 +232,9 @@
     .navbar .img {
         width: 1rem;
     }
-    .navbar span{
-        margin-top: 0px!important;
+
+    .navbar span {
+        margin-top: 0px !important;
     }
 }
 
@@ -211,146 +244,183 @@
         width: 1.2rem;
     }
 }
+
 .round_image img {
-    width: 12rem!important;
+    width: 12rem !important;
     height: auto;
 }
-.left_div{
+
+.left_div {
     padding-left: 60%;
     padding-top: 5rem;
     /*padding-right: 20%;*/
     /*padding-top: 2rem;*/
 }
-.right_div{
+
+.right_div {
     padding-right: 5rem;
     padding-top: 5.5rem;
 }
-.pt{
+
+.pt {
     padding-top: 0.8rem;
 }
-.pttt{
+
+.pttt {
     /*padding-top: 3rem!important;*/
 }
-@media(max-width: 1350px)  {
-    .left_div{
+
+@media (max-width: 1350px) {
+    .left_div {
         padding-left: 45%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 6rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 1185px)  {
-    .left_div{
+
+@media (max-width: 1185px) {
+    .left_div {
         padding-left: 41%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 4rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 1000px)  {
-    .left_div{
+
+@media (max-width: 1000px) {
+    .left_div {
         padding-left: 38%;
         justify-content: left;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 3rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 855px)  {
-    .left_div{
+
+@media (max-width: 855px) {
+    .left_div {
         padding-left: 28%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 2rem;
     }
 }
-@media(max-width: 800px)  {
-    .left_div{
+
+@media (max-width: 800px) {
+    .left_div {
         padding-left: 20%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 0rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 760px)  {
-    .left_div{
+
+@media (max-width: 760px) {
+    .left_div {
         padding-left: 10%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 0rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 650px)  {
-    .left_div{
+
+@media (max-width: 650px) {
+    .left_div {
         padding-left: 0%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 0rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 600px)  {
-    .left_div{
+
+@media (max-width: 600px) {
+    .left_div {
         margin-left: 0%;
     }
-    .right_div{
+
+    .right_div {
         margin-right: 0rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-@media(max-width: 576px)  {
-    .left_div{
+
+@media (max-width: 576px) {
+    .left_div {
         padding-left: 80%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: 0rem;
     }
 }
-@media(max-width: 417px)  {
-    .left_div{
+
+@media (max-width: 417px) {
+    .left_div {
         padding-left: 50%;
     }
-    .right_div{
+
+    .right_div {
         padding-right: -2rem;
     }
-    .pt{
+
+    .pt {
         padding-top: 0rem;
     }
 }
-.ptt{
+
+.ptt {
     /*padding-top: 6.5%;*/
     padding-bottom: 6%;
     background: #e8f7fe;
 }
-.caro{
+
+.caro {
     /*background: url("Asset 4.png");*/
     /*background:;*/
     background-position: center;
 
 }
-blockquote{
+
+blockquote {
     position: relative;
 }
-blockquote span:before{
+
+blockquote span:before {
     content: "\201C";
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -359,7 +429,8 @@ blockquote span:before{
     top: -0.65em;
     left: 0em;
 }
-blockquote span:after{
+
+blockquote span:after {
     content: "\201D";
     color: white;
     font-size: 250px;
@@ -369,122 +440,141 @@ blockquote span:after{
     top: -0.22em;
     font-family: 'Open Sans', sans-serif;
 }
-@media(max-width: 1200px)  {
-    blockquote span:before{
+
+@media (max-width: 1200px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: -3.5rem;
     }
 }
-@media(max-width: 1130px)  {
-    blockquote span:before{
+
+@media (max-width: 1130px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: -2rem;
     }
 }
-@media(max-width: 880px)  {
-    blockquote span:before{
+
+@media (max-width: 880px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: -0.8rem;
     }
 }
-@media(max-width: 710px)  {
-    blockquote span:before{
+
+@media (max-width: 710px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: 1.9rem;
     }
 }
-@media(max-width: 610px)  {
-    blockquote span:before{
+
+@media (max-width: 610px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 200px;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: 4rem;
         font-size: 200px;
     }
 }
-@media(max-width: 576px)  {
-    blockquote span:before{
+
+@media (max-width: 576px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 200px;
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: 0.8rem;
         font-size: 200px;
     }
 }
-@media(max-width: 650px)  {
-    .right_div{
+
+@media (max-width: 650px) {
+    .right_div {
         padding-top: 2rem;
     }
 }
-@media(max-width: 445px)  {
-    blockquote span:before{
+
+@media (max-width: 445px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 150px;
 
     }
 
-    blockquote span:after{
+    blockquote span:after {
         top: 3.5rem;
         font-size: 150px;
     }
 }
-@media(max-width: 410px)  {
-    blockquote span:before{
+
+@media (max-width: 410px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 150px;
 
     }
 
-    blockquote span:after{
+    blockquote span:after {
         top: 5rem;
         font-size: 150px;
     }
 }
-@media(max-width: 360px)  {
-    blockquote span:before{
+
+@media (max-width: 360px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 150px;
 
     }
-    blockquote span:after{
+
+    blockquote span:after {
         top: 6.5rem;
         font-size: 150px;
     }
 }
-@media(max-width: 336px)  {
-    blockquote span:before{
+
+@media (max-width: 336px) {
+    blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
         font-size: 100px;
 
     }
 
-    blockquote span:after{
+    blockquote span:after {
         top: 8.5rem;
         font-size: 100px;
     }
 }
-@media(max-width: 450px)  {
-    .right_div{
+
+@media (max-width: 450px) {
+    .right_div {
         padding-top: 1rem;
     }
 }
