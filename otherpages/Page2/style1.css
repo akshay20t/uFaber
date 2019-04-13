@@ -40,12 +40,12 @@
 
 @media (max-width: 675px) {
     #whole {
-        margin-top: 6.65rem;
+        margin-top: 7.3rem;
     }
 }
 @media (max-width: 510px) {
     #whole {
-        margin-top: 6.8rem;
+        margin-top: 7rem;
     }
 }
 .navbar-brand {
@@ -153,7 +153,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 550px) {
     .navbar-brand {
         width: 170px
     }

@@ -501,15 +501,24 @@ span, .card-text {
 }
 
 .fifth_section {
-    padding-bottom: 17.8rem;
+    padding-bottom: 10rem;
 }
 
 @media (max-width: 1000px) {
     .fifth_section {
-        padding-bottom: 10rem;
+        padding-bottom: 6rem;
     }
 }
-
+@media (max-width: 800px) {
+    .fifth_section {
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width: 650px) {
+    .fifth_section {
+        padding-bottom: 0rem;
+    }
+}
 @media (max-width: 350px) {
     .fifth_section {
         padding-bottom: 6rem;
@@ -518,7 +527,22 @@ span, .card-text {
 
 .large_pic {
     padding-bottom: 7.8rem;
+    width: 90% !important;
+    /*height: 25% !important;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 860px){
+    .large_pic {
+        padding-bottom: 0rem;
 
+    }
+}
+.carousel-item {
+    height: 37rem;
+}
+.carousel-item img {
+    /*height: 37rem !important;*/
 }
 
 .round_image {

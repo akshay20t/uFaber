@@ -9,8 +9,54 @@
     width: 50px;
 }
 
-.icon {
-    width: 6.6rem;
+/*.icon {*/
+    /*width: 18.75rem;*/
+/*}*/
+.navbar-brand{
+    position: relative;
+    /*background: url(./logo.svg);*/
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    width: 300px;
+    left: 90px;
+    /*top:95px; */
+    height: 64px;
+    /* max-height: 90px; height of the navbar */
+    background-size: contain;
+}
+@media (max-width: 1100px) {
+    .navbar-brand {
+        left: 0px;
+    }
+}
+@media (max-width: 675px) {
+    .navbar-brand {
+        /* width:0px; */
+        left: 0px;
+        /*margin-top: 25px;*/
+    }
+
+}
+@media (max-width: 675px) {
+    .navbar-brand {
+        left: -45px !important;
+    }
+}
+@media (max-width: 555px) {
+    .navbar-brand {
+        left: 0px !important;
+    }
+}
+@media (max-width: 550px) {
+    .navbar-brand {
+        width: 170px
+    }
+
+}
+@media (max-width: 380px) {
+    .navbar-brand {
+        width: 110px
+    }
 }
 #whole{
     padding-top: 6.2rem;
@@ -47,8 +93,16 @@
     }
 }
 .navbar {
-    margin-left: 7.2%;
+    /*margin-left: 7.2%;*/
     height: 6.25rem;
+}
+@media (max-width: 450px)  {
+    .navbar{
+        height: 5rem;
+    }
+    #whole{
+        padding-top: 5rem!important;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -125,10 +179,18 @@
 @media (max-width: 675px) {
     .navbar span {
         margin-right: 0 !important;
-        margin-top: 25px !important;
+        /*margin-top: 25px !important;*/
     }
 }
-
+@media (max-width: 530px)  {
+    .navbar span{
+        width: 35px;
+        margin-top: 0px!important;
+    }
+    .navbar-brand{
+        margin-top: 0;
+    }
+}
 
 @media (max-width: 520px) {
 

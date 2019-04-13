@@ -149,7 +149,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 550px) {
     .navbar-brand {
         width: 170px
     }
@@ -167,4 +167,7 @@
     .navbar img {
         width: 1.2rem;
     }
+}
+.top_sec_cont{
+    padding-top:0rem ;
 }
