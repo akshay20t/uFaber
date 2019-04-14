@@ -1,5 +1,5 @@
-html,body {
-    overflow-x: hidden!important;
+html, body {
+    overflow-x: hidden !important;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,68 +8,74 @@ html,body {
         font-size: calc(1.125rem + ((1vw - 3.2px) * 2));
     }
 }
+
 @media (min-width: 1920px) {
     .top_sec h1 {
         font-size: 50px;
     }
 }
 
-  @media (min-width: 320px) {
+@media (min-width: 320px) {
     .top_sec span {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.625));
     }
-  }
-  @media (min-width: 1920px) {
-    .top_sec span {
-      font-size: 20px;
-    }
-  }
+}
 
-  @media (min-width: 320px) {
-    .second_sec .card-title {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+@media (min-width: 1920px) {
+    .top_sec span {
+        font-size: 20px;
     }
-  }
-  @media (min-width: 1920px) {
-    .second_sec .card-title {
-      font-size: 28px;
-    }
-  }
+}
 
 @media (min-width: 320px) {
-    .second_sec .card-text  {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    .second_sec .card-title {
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-  }
-  @media (min-width: 1920px) {
-    .second_sec .card-text  {
-      font-size: 16px;
+}
+
+@media (min-width: 1920px) {
+    .second_sec .card-title {
+        font-size: 28px;
     }
-  }
+}
+
+@media (min-width: 320px) {
+    .second_sec .card-text {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    }
+}
+
+@media (min-width: 1920px) {
+    .second_sec .card-text {
+        font-size: 16px;
+    }
+}
 
 /*/////////*/
 
 @media (min-width: 320px) {
     .second_section .card-title {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-  }
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     .second_section .card-title {
-      font-size: 28px;
+        font-size: 28px;
     }
-  }
+}
 
 @media (min-width: 320px) {
-    .second_section .card-text  {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    .second_section .card-text {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-  }
-  @media (min-width: 1920px) {
-    .second_section .card-text  {
-      font-size: 16px;
+}
+
+@media (min-width: 1920px) {
+    .second_section .card-text {
+        font-size: 16px;
     }
-  }
+}
 
 /*///////*/
 
@@ -110,7 +116,7 @@ html,body {
 
 .top_sec h1 {
     padding-bottom: 0.7rem;
-    font-weight: 800!important;
+    font-weight: 800 !important;
 }
 
 .top_sec img {
@@ -343,7 +349,7 @@ html,body {
 
 .second_sec h2 {
     padding-top: 6rem;
-    padding-left: 1.5rem;
+    /*padding-left: 1.5rem;*/
 }
 
 @media (max-width: 850px) {
@@ -375,8 +381,9 @@ html,body {
         line-height: 2.2rem;
         padding-top: 5rem !important;
     }
-    .second_sec h2{
-        padding-top: 5rem!important;
+
+    .second_sec h2 {
+        padding-top: 5rem !important;
     }
 }
 
@@ -397,13 +404,16 @@ html,body {
     padding-top: 6rem;
     width: 100%;
 }
-.pbb{
+
+.pbb {
     padding-bottom: 2.5rem;
 
 }
-.d1{
+
+.d1 {
     padding-top: 5rem;
 }
+
 @media (max-width: 1252px) {
     .second_section {
         padding-right: 4rem;
@@ -431,11 +441,12 @@ html,body {
         line-height: 1.5rem;
     }
 }
-@media (max-width: 700px)  {
+
+@media (max-width: 700px) {
     .second_section {
         /*padding-bottom: 0rem!important;*/
         /*margin-right: -3rem!important;*/
-        line-height: 2rem!important;
+        line-height: 2rem !important;
     }
 }
 
@@ -465,41 +476,49 @@ html,body {
 .third_sec h2 {
     padding-top: 6.5rem;
 }
+
 @media (max-width: 1250px) {
     .third_sec h2 {
         padding-top: 5rem;
     }
 }
+
 @media (max-width: 1100px) {
     .third_sec h2 {
         padding-top: 4.5rem;
     }
 }
+
 @media (max-width: 1015px) {
     .third_sec h2 {
         padding-top: 3.8rem;
     }
 }
-@media (max-width: 990px)  {
-    .third_sec h2{
+
+@media (max-width: 990px) {
+    .third_sec h2 {
         padding-top: 3.2rem;
     }
 }
-@media (max-width: 800px)  {
-    .third_sec h2{
+
+@media (max-width: 800px) {
+    .third_sec h2 {
         padding-top: 2.5rem;
     }
 }
-@media (max-width: 670px)  {
-    .third_sec h2{
+
+@media (max-width: 670px) {
+    .third_sec h2 {
         padding-top: 2rem;
     }
 }
-@media (max-width: 580px)  {
-    .third_sec h2{
+
+@media (max-width: 580px) {
+    .third_sec h2 {
         padding-top: 1.5rem;
     }
 }
+
 .third_sec img {
     padding-left: 4rem;
     padding-top: 6rem;
@@ -507,28 +526,29 @@ html,body {
     /*height: 34.06425rem;*/
 }
 
-
 @media (min-width: 320px) {
     .third_sec .card-title {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-  }
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     .third_sec .card-title {
-      font-size: 28px;
+        font-size: 28px;
     }
-  }
+}
 
 @media (min-width: 320px) {
-    .third_sec .card-text  {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    .third_sec .card-text {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-  }
-  @media (min-width: 1920px) {
-    .third_sec .card-text  {
-      font-size: 16px;
+}
+
+@media (min-width: 1920px) {
+    .third_sec .card-text {
+        font-size: 16px;
     }
-  }
+}
 
 .fourth_sec {
     padding-right: 10rem;
@@ -539,41 +559,46 @@ html,body {
 .fourth_sec h2 {
     padding-top: 4.8rem;
 }
-@media (max-width: 576px)  {
+
+@media (max-width: 576px) {
     .fourth_sec h2 {
         padding-bottom: 1.8rem;
         padding-top: 5.8rem;
-
+        /*margin-left: 0;*/
+        /*margin-right: 0;*/
     }
 
 }
+
 /*////////*/
 
 @media (min-width: 320px) {
     .fourth_sec h2 {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-  }
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     .fourth_sec h2 {
-      font-size: 28px;
+        font-size: 28px;
     }
-  }
+}
 
 @media (min-width: 320px) {
-    .fourth_sec .tex  {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    .fourth_sec .tex {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-  }
-  @media (min-width: 1920px) {
-    .fourth_sec .tex  {
-      font-size: 16px;
-    }
-  }
+}
 
-                    .tex {
-                        line-height: 3rem;
-                    }
+@media (min-width: 1920px) {
+    .fourth_sec .tex {
+        font-size: 16px;
+    }
+}
+
+.tex {
+    line-height: 3rem;
+}
 
 @media (max-width: 1300px) {
     .fourth_sec {
@@ -637,27 +662,33 @@ html,body {
 }
 
 .sixth_sec h2 {
-    padding-top: 6rem;
+    padding-top: 6.3rem;
 }
-@media (max-width: 576px)  {
-    .sixth_sec .card-title{
-        background-size: 70px!important;
-    }
-    .sixth_sec .card-title{
-/*padding-top: 3.5rem!important;*/
-    }
-}
+
 @media (max-width: 576px) {
-    .sixth_sec h2{
+    .sixth_sec .card-title {
+        background-size: 70px !important;
+    }
+
+    .sixth_sec .card-title {
+        /*padding-top: 3.5rem!important;*/
+    }
+}
+
+@media (max-width: 576px) {
+    .sixth_sec h2 {
         padding-top: 3rem;
     }
-    .sixth_sec img{
+
+    .sixth_sec img {
         padding-bottom: 4rem;
     }
 }
-.sixth_sec img{
+
+.sixth_sec img {
     padding-bottom: 5rem;
 }
+
 .sixth_sec img {
     padding-left: 0rem;
     padding-top: 6rem;
@@ -665,30 +696,29 @@ html,body {
     /*height: 34.06425rem;*/
 }
 
-
 @media (min-width: 320px) {
     .sixth_sec .card-title {
-      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
+        font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
     }
-  }
-  @media (min-width: 1920px) {
+}
+
+@media (min-width: 1920px) {
     .sixth_sec .card-title {
-      font-size: 28px;
+        font-size: 28px;
     }
-  }
+}
 
 @media (min-width: 320px) {
-    .sixth_sec .card-text  {
-      font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
+    .sixth_sec .card-text {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.375));
     }
-  }
-  @media (min-width: 1920px) {
-    .sixth_sec .card-text  {
-      font-size: 16px;
+}
+
+@media (min-width: 1920px) {
+    .sixth_sec .card-text {
+        font-size: 16px;
     }
-  }
-
-
+}
 
 /*//*/
 @media (min-width: 80px) {
@@ -793,9 +823,11 @@ html,body {
         padding-right: 3rem;
         padding-top: 3rem;
     }
-.third_sec h2{
 
-}
+    .third_sec h2 {
+
+    }
+
     .third_sec img {
         padding-top: 10rem !important;
     }
@@ -821,85 +853,176 @@ html,body {
 }
 
 /**/
-.sixth_sec{
+.sixth_sec {
     padding-bottom: 4rem;
 }
-.footer{
+
+.footer {
     /*padding-top: 4rem;*/
 }
 
-.footer{
+.footer {
     border-top: solid #009AFF;
     border-width: thin;
 }
-@media (min-width: 750px) and (max-width: 900px)  {
-    .third_sec{
-        padding-left: 4rem!important;
+
+@media (min-width: 750px) and (max-width: 900px) {
+    .third_sec {
+        padding-left: 4rem !important;
     }
 }
-.navbar{
+
+.navbar {
     /*overflow: hidden;*/
 }
+
 @media (min-width: 1920px) {
-    .logo  {
+    .logo {
         font-size: 16px;
     }
 }
-.footer_logo span{
+
+.footer_logo span {
     font-size: 16px;
 }
-@media (max-width: 630px)  {
-    .footer_logo span{
+
+@media (max-width: 630px) {
+    .footer_logo span {
         font-size: 14px;
     }
 }
-@media (max-width: 560px)  {
-    .footer_logo span{
+
+@media (max-width: 560px) {
+    .footer_logo span {
         font-size: 13px;
     }
 }
-@media (max-width: 531px)  {
-    .footer_logo span{
+
+@media (max-width: 531px) {
+    .footer_logo span {
         font-size: 12px;
     }
 }
-@media (max-width: 510px)  {
-    .footer_logo span{
+
+@media (max-width: 510px) {
+    .footer_logo span {
         font-size: 11px;
     }
 }
-@media (max-width: 479px)  {
-    .footer_logo span{
+
+@media (max-width: 479px) {
+    .footer_logo span {
         font-size: 10px;
     }
 }
-@media (max-width: 445px)  {
-    .footer_logo span{
+
+@media (max-width: 445px) {
+    .footer_logo span {
         font-size: 8px;
     }
 }
-@media (max-width: 1920px)and (min-width: 700px)  {
-    .follow{
+
+@media (max-width: 1920px)and (min-width: 700px) {
+    .follow {
         margin-left: 1.5rem;
     }
 }
 
-@media (max-width: 699px)  {
+@media (max-width: 699px) {
     .follow {
         margin-left: 0.5rem;
 
     }
 }
-@media (max-width: 1000px)  {
-.d3{
-    margin-top: -4rem;
-}
-}
-@media (max-width: 765px)  {
-    .d3{
- line-height: 1.8rem;
+
+@media (max-width: 1000px) {
+    .d3 {
+        margin-top: -4rem;
     }
-.fourth_sec .card-text{
-    /*margin-left: -2rem!important;*/
 }
+
+@media (max-width: 640px) {
+    .d3 {
+        margin-top: -10rem !important;
+    }
+
+    .fourth_sec .card-text {
+        /*margin-left: -3rem;*/
+    }
+}
+
+@media (max-width: 600px) {
+    .d3 {
+        margin-top: -10rem !important;
+
+    }
+
+    .fourth_sec h2 {
+        margin-left: -2rem;
+    }
+
+    .tex {
+        line-height: 1.8rem !important;
+        margin-left: -2rem;
+    }
+
+    .fourth_sec .card-text {
+        /*margin-left: -3rem;*/
+    }
+}
+
+@media (max-width: 765px) {
+    .d3 {
+        line-height: 1.8rem;
+    }
+
+    .fourth_sec .card-text {
+        /*margin-left: -2rem!important;*/
+    }
+}
+
+@media (max-width: 576px) {
+    .fourth_sec h2 {
+        /*padding-top: 4rem;*/
+        margin-left: 0;
+    }
+
+    .d3 {
+        margin-top: -4rem !important;
+    }
+
+    .tex {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .d4 .card-text {
+        margin-left: -1.5rem;
+        margin-right: -3rem;
+    }
+}
+
+@media (max-width: 746px) {
+    .d4 {
+        /*margin-left: -1.5rem;*/
+        /*margin-right: -3rem;*/
+
+        margin-top: -2rem !important;
+    }
+    .d4 .card-text{
+        line-height: 1.6rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .d4 .card-text {
+        /*margin-left: -1.5rem;*/
+        /*margin-right: -3rem;*/
+
+        line-height: 1.8rem;
+    }
+    .d4{
+        margin-top: -2rem;
+    }
 }
