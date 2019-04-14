@@ -456,10 +456,12 @@ blockquote span:after {
     blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
+        /*font-size: 210px;*/
     }
 
     blockquote span:after {
         top: -2rem;
+        /*font-size: 210px;*/
     }
 }
 
@@ -474,14 +476,28 @@ blockquote span:after {
     }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 711px) {
     blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
+        font-size: 200px;
     }
 
     blockquote span:after {
-        top: 1.9rem;
+        top: 3.8rem;
+        font-size: 200px;
+    }
+}
+@media (max-width: 717px) {
+    blockquote span:before {
+        /*margin-top: 0.5rem;*/
+        top: -0.65em;
+        font-size: 200px;
+    }
+
+    blockquote span:after {
+        top: 2.5rem;
+        font-size: 200px;
     }
 }
 
@@ -516,8 +532,20 @@ blockquote span:after {
         padding-top: 2rem;
     }
 }
+@media (max-width: 480px) {
+    blockquote span:before {
+        /*margin-top: 0.5rem;*/
+        top: -0.65em;
+        font-size: 170px;
 
-@media (max-width: 445px) {
+    }
+
+    blockquote span:after {
+        top: 3rem;
+        font-size: 170px;
+    }
+}
+@media (max-width: 448px) {
     blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
@@ -526,12 +554,12 @@ blockquote span:after {
     }
 
     blockquote span:after {
-        top: 3.5rem;
+        top: 4rem;
         font-size: 150px;
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 414px) {
     blockquote span:before {
         /*margin-top: 0.5rem;*/
         top: -0.65em;
@@ -540,7 +568,7 @@ blockquote span:after {
     }
 
     blockquote span:after {
-        top: 5rem;
+        top: 5.5rem;
         font-size: 150px;
     }
 }
