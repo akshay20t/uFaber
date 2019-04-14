@@ -120,15 +120,32 @@ html, body {
 }
 
 .top_sec img {
-    /*position: absolute;*/
-    /*height: 32rem;*/
     width: 48rem;
     padding-left: 7.2rem;
     padding-right: 4rem;
-
     max-width: 100% /*transform: translateZ(-100px) scale(1);*/
 }
-
+@media (max-width: 480px)  {
+.top_sec img{
+    width: 30rem;
+    padding-left: 5.2rem;
+    padding-right: 6rem;
+}
+}
+@media (max-width: 428px)  {
+    .top_sec img{
+        /*width: 30rem;*/
+        padding-left: 4.2rem;
+        padding-right: 5.5rem;
+    }
+}
+@media (max-width: 380px)  {
+    .top_sec img{
+        /*width: 30rem;*/
+        padding-left: 3.8rem;
+        padding-right: 4rem;
+    }
+}
 .top_sec span {
     /*font-size: 1.6rem;*/
 }
@@ -746,25 +763,66 @@ html, body {
         margin-left: 0.2rem !important;
     }
 }
-
+/**/
+/**/
 .footer_logo img {
-    width: 10.5%;
-    margin-right: 0.6rem;
+    width: 1.7rem;
+    margin-right: 1rem;
+    margin-top: 0.4rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
     .footer_logo img {
-        width: 22.5%;
+        width: 1.5rem;
         margin-right: 0.5rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 759px) {
     .footer_logo img {
-        width: 25.5%;
+        width: 1.4rem;
+        margin-right: 0.4rem;
+    }
+}
+@media (max-width: 710px) {
+    .footer_logo img {
+        width: 1.3rem;
+        margin-right: 0.4rem;
+    }
+}
+
+@media (max-width: 536px) {
+    .footer_logo img{
+        width: 1rem;
+    }
+}
+@media (max-width: 453px) {
+    .footer_logo img {
+        width: 1rem;
+        margin-right: 0.25rem;
+    }
+}
+@media (max-width: 423px) {
+    .footer_logo img {
+        width: 0.9rem;
+        margin-right: 0.15rem;
+    }
+}
+@media (max-width: 368px) {
+    .footer_logo  img{
+        width: 0.8rem;
+        /*margin-right: 0.2rem;*/
+        /*margin-right: -0.5rem;*/
+    }
+}
+@media (max-width: 367px) {
+    .footer_logo  img{
+        width: 0.8rem;
+        /*margin-right: 0.2rem;*/
         margin-right: 0rem;
     }
 }
+
 
 .footer div {
     font-family: 'Open Sans', sans-serif;
@@ -794,8 +852,24 @@ html, body {
     padding-left: 10%;
     padding-right: 10%;
 }
-
-/**/
+@media (max-width: 759px) {
+    .logo{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 470px)  {
+    .logo{
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+}
+@media (max-width: 390px)  {
+    .logo{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
 
 @media (max-width: 1368px) {
     .third_sec {
@@ -872,8 +946,15 @@ html, body {
     }
 }
 
-.navbar {
-    /*overflow: hidden;*/
+@media (min-width: 320px) {
+    .logo p {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
+    }
+}
+@media (min-width: 1920px) {
+    .logo p {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -881,7 +962,16 @@ html, body {
         font-size: 16px;
     }
 }
-
+@media (min-width: 320px) {
+    .logo  {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
+    }
+}
+@media (min-width: 1920px) {
+    .logo  {
+        font-size: 18px;
+    }
+}
 .footer_logo span {
     font-size: 16px;
 }
@@ -946,9 +1036,6 @@ html, body {
         margin-top: -10rem !important;
     }
 
-    .fourth_sec .card-text {
-        /*margin-left: -3rem;*/
-    }
 }
 
 @media (max-width: 600px) {
@@ -966,9 +1053,6 @@ html, body {
         margin-left: -2rem;
     }
 
-    .fourth_sec .card-text {
-        /*margin-left: -3rem;*/
-    }
 }
 
 @media (max-width: 765px) {
@@ -976,9 +1060,6 @@ html, body {
         line-height: 1.8rem;
     }
 
-    .fourth_sec .card-text {
-        /*margin-left: -2rem!important;*/
-    }
 }
 
 @media (max-width: 576px) {
@@ -1005,9 +1086,6 @@ html, body {
 
 @media (max-width: 746px) {
     .d4 {
-        /*margin-left: -1.5rem;*/
-        /*margin-right: -3rem;*/
-
         margin-top: -2rem !important;
     }
     .d4 .card-text{
@@ -1017,9 +1095,6 @@ html, body {
 
 @media (max-width: 630px) {
     .d4 .card-text {
-        /*margin-left: -1.5rem;*/
-        /*margin-right: -3rem;*/
-
         line-height: 1.8rem;
     }
     .d4{

@@ -1,9 +1,17 @@
-body {
+body,html {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
-.logo p  {
-    font-size: 16px!important;
+
+@media (min-width: 80px) {
+    .logo p {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
+    }
+}
+@media (min-width: 1920px) {
+    .logo p {
+        font-size: 18px;
+    }
 }
 nav {
     background: #e8f7fe;
@@ -441,21 +449,60 @@ button {
 
 /*////////*/
 .footer_logo img {
-    /*letter-spacing: 2rem;*/
-    width: 10.5%;
-    margin-right: 0.6rem;
+    /*line-height: 5rem;*/
+    width: 1.7rem;
+    margin-right: 1rem;
+    margin-top: 0.4rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
     .footer_logo img {
-        width: 15.5%;
+        width: 1.5rem;
         margin-right: 0.5rem;
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 759px) {
     .footer_logo img {
-        width: 20.5%;
+        width: 1.4rem;
+        margin-right: 0.4rem;
+    }
+}
+@media (max-width: 710px) {
+    .footer_logo img {
+        width: 1.3rem;
+        margin-right: 0.4rem;
+    }
+}
+
+@media (max-width: 536px) {
+    .footer_logo img{
+        width: 1rem;
+    }
+}
+@media (max-width: 453px) {
+    .footer_logo img {
+        width: 1rem;
+        margin-right: 0.25rem;
+    }
+}
+@media (max-width: 423px) {
+    .footer_logo img {
+        width: 0.9rem;
+        margin-right: 0.15rem;
+    }
+}
+@media (max-width: 368px) {
+    .footer_logo  img{
+        width: 0.8rem;
+        /*margin-right: 0.2rem;*/
+    /*margin-right: -0.5rem;*/
+    }
+}
+@media (max-width: 367px) {
+    .footer_logo  img{
+        width: 0.8rem;
+        /*margin-right: 0.2rem;*/
         margin-right: 0rem;
     }
 }
@@ -486,7 +533,24 @@ button {
     padding-left: 10%;
     padding-right: 10%;
 }
-
+@media (max-width: 759px) {
+    .logo{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width: 470px)  {
+    .logo{
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+}
+@media (max-width: 390px)  {
+    .logo{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
 @media (min-width: 80px) {
     .last {
         font-size: calc(0.5rem + ((1vw - 0.8px) * 0.7065));
@@ -558,15 +622,17 @@ button {
 
 .footer {
     border-top: solid #009AFF;
+    border-width: thin;
 }
-/*@media (min-width: 320px) {*/
-    /*.logo  {*/
-        /*font-size: calc(0.5rem + ((1vw - 3.2px) * 0.5));*/
-    /*}*/
-/*}*/
+
+@media (min-width: 80px) {
+    .logo  {
+        font-size: calc(0.625rem + ((1vw - 3.2px) * 0.5));
+    }
+}
 @media (min-width: 1920px) {
     .logo  {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 .footer_logo span{
