@@ -2,7 +2,22 @@ html, body {
     overflow-x: hidden !important;
     font-family: 'Open Sans', sans-serif;
 }
+/**/
 
+@media (max-width: 576px){
+    .second_sec .card-deck{
+        flex-direction: column-reverse !important;
+    }
+    .third_sec .card-deck{
+        flex-direction: column-reverse !important;
+    }
+    .sixth_sec .card-deck{
+        flex-direction: column-reverse !important;
+    }
+}
+
+
+/**/
 @media (min-width: 80px) {
     .top_sec h1 {
         font-size: calc(1.125rem + ((1vw - 3.2px) * 2));
