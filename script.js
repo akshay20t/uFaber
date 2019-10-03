@@ -2,11 +2,11 @@ console.log(document.body.clientWidth);
 
 function openNav() {
     if(document.body.clientWidth < 426){
-        document.getElementById("mySidenav").style.width = "310px";
+        document.getElementById("mySidenav").style.width = "312px";
     }
     else{
 
-        document.getElementById("mySidenav").style.width = "455px";
+        document.getElementById("mySidenav").style.width = "456px";
         // document.body.classList.add("boxshadow");
     }
     document.getElementById("whole").style.opacity="0.3";
